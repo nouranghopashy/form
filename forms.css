@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #ddcece;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.hh {
+    width: 100%; /* عرض كامل */
+    text-align: center;
+    background-color: rgb(185, 164, 136);
+    padding: 50px 20px;
+    background-image: url(https://img.ev.mu/images/portfolio/pays/181/1605x1070/847131.jpg);
+}
+
+.hh h1 {
+    font-size: 50px;
+    color: #333;
+}
+
+.hh p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #777;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between; /* توزيع المحتوى */
+    width: 100%;
+    max-width: 1200px; /* عرض أقصى للحاوية */
+    margin: 20px 0; /* مسافة فوق وتحت */
+}
+
+.images-left,
+.images-right {
+    display: flex;
+    flex-direction: column; /* الصور تكون عمودية */
+    justify-content: space-between; /* توزيع المسافة بين الصور */
+    width: 40%; /* عرض الصور */
+}
+
+.images-left img,
+.images-right img {
+    width: 100%; /* عرض كامل لكل صورة */
+    margin-bottom: 10px; /* مسافة تحت كل صورة */
+    border-radius: 10px; /* زوايا دائرية للصورة */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* ظل خفيف للصورة */
+}
+
+/* إضافة المسافة بين الصور والنموذج */
+.images-left {
+    margin-bottom: 20px; /* مسافة بين الصور والنموذج */
+    margin-right: 20px;
+}
+
+.images-right {
+    margin-bottom: 50px; /* مسافة بين الصور والنموذج */
+    margin-left: 50px;
+}
+
+.nn {
+    width: 50%; /* عرض النموذج */
+    padding: 30px; /* زيادة المساحة داخل النموذج */
+    background-color: white; /* خلفية بيضاء للنموذج */
+    border-radius: 10px; /* زوايا دائرية */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* تأثير ظل */
+}
+
+.form-group {
+    margin-bottom: 20px; /* مسافة بين الحقول */
+}
+
+.form-group label {
+    display: block; /* جعل الملصق كتلة */
+    margin-bottom: 8px; /* مسافة تحت الملصق */
+    font-weight: bold; /* جعل النص غامق */
+    font-size: 18px; /* زيادة حجم النص */
+}
+
+.form-group input[type="date"],
+.form-group input[type="number"],
+.form-group input[type="range"] {
+    width: 100%; /* عرض كامل */
+    padding: 15px; /* مساحة داخلية */
+    border: 1px solid #ccc; /* إطار خفيف */
+    border-radius: 5px; /* زوايا دائرية */
+    font-size: 16px; /* حجم خط أكبر */
+}
+
+.submit-btn {
+    background-color: #4CAF50; /* لون الخلفية للزر */
+    color: white; /* لون النص */
+    padding: 15px; /* مساحة داخلية للزر */
+    border: none; /* إزالة الحدود */
+    border-radius: 5px; /* زوايا دائرية */
+    font-size: 18px; /* حجم خط أكبر */
+    cursor: pointer; /* تغيير شكل المؤشر عند المرور فوق الزر */
+    width: 100%; /* عرض كامل */
+}
+
+.submit-btn:hover {
+    background-color: #45a049; /* لون الزر عند التمرير فوقه */
+}
